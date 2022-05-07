@@ -6,7 +6,7 @@ http://api.bilibili.com/x/web-interface/view?bvid=BV1jy4y1r74k
 const { segment } = require("oicq")
 const http = require('http');
 
-function onStart(api) {
+function Start(api) {
     api.listen('onMainMessageReceived', e => {
         let res = e.raw_message.match(/(bv|BV)(.+)/);
         if (res == null) return;
@@ -64,7 +64,10 @@ function parseBid(bid, callback) {
     });
 }
 
-module.exports = {
-    onStart,
-    onStop(){}
+class bilibiliSearch extends NIL.ModuleBase{
+    onStart(api){
+        Start(api);
+    }
 }
+
+module.exports = new bilibiliSearch;
