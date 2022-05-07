@@ -11,6 +11,8 @@ B站视频查询
 
 三种均可识别
 
-![](https://imgtu.com/i/OlS2LV)
-![](https://imgtu.com/i/OlSgs0)
-![](https://imgtu.com/i/OlScMq)
+![](https://s1.ax1x.com/2022/05/07/OlSgs0.md.png)
+
+![](https://s1.ax1x.com/2022/05/07/OlS2LV.md.png)
+
+![](https://s1.ax1x.com/2022/05/07/OlScMq.md.png)
